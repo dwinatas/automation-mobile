@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import pathkeyword.pathkeyword as pathkeyword
 
 Mobile.startApplication(pathkeyword.filePathApps() + '/com.mobileappruparupa_2023-08-11.apk', true)
+//note: untuk apk nya ada di file androidapp dan harus di unzip dulu karena file nya terlalu besar
 
 WebUI.delay(5)
 
